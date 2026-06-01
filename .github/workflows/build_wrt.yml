@@ -1,6 +1,8 @@
 name: Build WRT
 run-name: Build - ${{ inputs.model }}
-
+permissions:
+  actions: write
+  contents: read
 on:
   workflow_dispatch:
     inputs:
