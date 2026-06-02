@@ -66,8 +66,8 @@ redmi_ax6_wifi_cfg() {
 }
 
 qihoo_360v6_wifi_cfg() {
-	configure_wifi 0 1 HE80 20 'Qihoo_360V6' '12345678'
-	configure_wifi 1 149 HE20 20 'Qihoo_360V6_5G' '12345678'
+	configure_wifi 0 1 HE40 20 '2024' '20242024'
+	configure_wifi 1 36 HE40 20 '2024' '20242024'
 }
 
 linksys_mx4x00_wifi_cfg() {
